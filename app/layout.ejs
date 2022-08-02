@@ -10,8 +10,16 @@
 </head>
 
 <body>
-  <header class="header">
-    這是 header
+  <header class="header bg-primary">
+    <div class="md:container md:flex md:items-center md:justify-between">
+      <h1 class="text-center py-1"><a href="/" class="logo block mx-auto">眼鏡形象官網</a></h1>
+      <ul class="flex flex-wrap">
+        <li class="w-1/2 text-center md:w-auto"><a href="#" class="block text-white py-3 border border-r-0 border-b-0 border-white md:border-0 md:px-8">系列鏡框</a></li>
+        <li class="w-1/2 text-center md:w-auto"><a href="#" class="block text-white py-3 border border-b-0  border-white md:border-0 md:px-8">門市據點</a></li>
+        <li class="w-1/2 text-center md:w-auto"><a href="#" class="block text-white py-3 border border-r-0 border-white md:border-0 md:px-8">部落格</a></li>
+        <li class="w-1/2 text-center md:w-auto"><a href="#" class="block text-white py-3 border border-white md:border-0 md:px-8 md:pr-0">常見問題</a></li>
+      </ul>
+    </div>
   </header>
 
   <%- contents %>
