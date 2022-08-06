@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base{
+  html{
+    font-family: 'Roboto', 'Noto Sans TC',system-ui, sans-serif;
+  }
+}
+
 .logo{
   background-image: url('../images/logo-white.png');
   background-repeat: no-repeat;
