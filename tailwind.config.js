@@ -10,6 +10,8 @@ module.exports = {
         }
       },
       fontSize: {
+        '3xxl': ['32px', '48px'],
+        '4xxl': ['42px', '63px'],
         '6xxl': ['64px', '96px']
       },
       dropShadow: {
