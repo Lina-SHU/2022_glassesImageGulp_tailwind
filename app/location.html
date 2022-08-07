@@ -1,0 +1,47 @@
+---
+title: 門市分店
+layout: ./app/layout.ejs
+engine: ejs
+current: LOCATION
+---
+<main>
+  <section class="container pt-10 pb-16 md:py-20 lg:pt-24">
+    <h2 class="text-2xl font-bold mb-6 border-l-8 border-primary pl-4 md:text-5xl md:mb-10">門市據點</h2>
+    <label class="flex items-center mb-6 md:mb-10">
+      <span class="text-gray-700 whitespace-nowrap mr-2 md:text-2xl md:mr-4">選擇分店</span>
+      <select
+        class="block w-full text-lg border-[#CED4DA] text-[#495057] focus:border-gray-500 focus:ring focus:ring-gray-500 focus:ring-opacity-5 md:max-w-[304px] lg:w-1/4">
+        <option value="台北中山旗艦店">台北中山旗艦店</option>
+        <option value="台北綠園店">台北綠園店</option>
+        <option value="台中清水旗艦店">台中清水旗艦店</option>
+      </select>
+    </label>
+    <div class="flex flex-wrap lg:-mx-3">
+      <div class="mb-6 flex flex-wrap md:-mx-3 lg:mx-0 lg:mb-0 lg:w-5/12 lg:px-3">
+        <img class="md:w-1/2 md:px-3 lg:w-full lg:px-0" src="./assets/images/store-1.png" alt="門市據點">
+        <div class="w-full md:w-1/2 md:px-3 lg:w-full lg:px-0">
+          <h3 class="text-2xl border border-b-0 border-[#00000020] py-2 px-6">台北中山旗艦店</h3>
+          <ul class="py-4 px-6 border border-[#00000020]">
+            <li class="mb-2 text-xl flex items-center">
+              <span class="material-symbols-outlined mr-2">call</span>
+              電話：(02)000-1234
+            </li>
+            <li class="mb-2 text-xl flex items-center">
+              <span class="material-symbols-outlined mr-2">schedule</span>
+              營業時間：10:00-21:00
+            </li>
+            <li class="text-xl flex items-center">
+              <span class="material-symbols-outlined mr-2">location_on</span>
+              地址：台北市中山區南京東路25巷2-1號
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="w-full lg:w-7/12 lg:px-3">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.469146632183!2d121.54182031432414!3d25.05208334372176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442abddf2efc493%3A0x318be85c17ee3286!2z5Y2X5Lqs5b6p6IiI!5e0!3m2!1szh-TW!2stw!4v1659853440096!5m2!1szh-TW!2stw" style="border:0;" allowfullscreen="" loading="lazy" class="w-full h-[208px] md:h-[414px] lg:h-full"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </section>
+</main>
