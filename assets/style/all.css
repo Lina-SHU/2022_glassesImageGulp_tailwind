@@ -877,29 +877,29 @@ select {
   --tw-bg-opacity: 1;
   background-color: rgb(183 89 41 / var(--tw-bg-opacity));
 }
-.bg-\[url\(\'\/assets\/images\/home-header-sm\.png\'\)\] {
-  background-image: url('/assets/images/home-header-sm.png');
+.bg-\[url\(\'\.\/assets\/images\/home-header-sm\.png\'\)\] {
+  background-image: url('./assets/images/home-header-sm.png');
 }
-.bg-\[url\(\'\/assets\/images\/index-bg\.png\'\)\] {
-  background-image: url('/assets/images/index-bg.png');
+.bg-\[url\(\'\.\/assets\/images\/index-bg\.png\'\)\] {
+  background-image: url('./assets/images/index-bg.png');
 }
-.bg-\[url\(\'\/assets\/images\/home-section4-1-sm\.png\'\)\] {
-  background-image: url('/assets/images/home-section4-1-sm.png');
+.bg-\[url\(\'\.\/assets\/images\/home-section4-1-sm\.png\'\)\] {
+  background-image: url('./assets/images/home-section4-1-sm.png');
 }
-.bg-\[url\(\'\/assets\/images\/home-section4-2-sm\.png\'\)\] {
-  background-image: url('/assets/images/home-section4-2-sm.png');
+.bg-\[url\(\'\.\/assets\/images\/home-section4-2-sm\.png\'\)\] {
+  background-image: url('./assets/images/home-section4-2-sm.png');
 }
-.bg-\[url\(\'\/assets\/images\/home-section5-1\.png\'\)\] {
-  background-image: url('/assets/images/home-section5-1.png');
+.bg-\[url\(\'\.\/assets\/images\/home-section5-1\.png\'\)\] {
+  background-image: url('./assets/images/home-section5-1.png');
 }
-.bg-\[url\(\'\/assets\/images\/home-section5-2\.png\'\)\] {
-  background-image: url('/assets/images/home-section5-2.png');
+.bg-\[url\(\'\.\/assets\/images\/home-section5-2\.png\'\)\] {
+  background-image: url('./assets/images/home-section5-2.png');
 }
-.bg-\[url\(\'\/assets\/images\/home-section5-3\.png\'\)\] {
-  background-image: url('/assets/images/home-section5-3.png');
+.bg-\[url\(\'\.\/assets\/images\/home-section5-3\.png\'\)\] {
+  background-image: url('./assets/images/home-section5-3.png');
 }
-.bg-\[url\(\'\/assets\/images\/home-section5-4\.png\'\)\] {
-  background-image: url('/assets/images/home-section5-4.png');
+.bg-\[url\(\'\.\/assets\/images\/home-section5-4\.png\'\)\] {
+  background-image: url('./assets/images/home-section5-4.png');
 }
 .bg-\[url\(\'\/assets\/images\/logo-white\.png\'\)\] {
   background-image: url('/assets/images/logo-white.png');
@@ -1300,12 +1300,12 @@ select {
     border-width: 0px;
   }
 
-  .md\:bg-\[url\(\'\/assets\/images\/home-section4-1\.png\'\)\] {
-    background-image: url('/assets/images/home-section4-1.png');
+  .md\:bg-\[url\(\'\.\/assets\/images\/home-section4-1\.png\'\)\] {
+    background-image: url('./assets/images/home-section4-1.png');
   }
 
-  .md\:bg-\[url\(\'\/assets\/images\/home-section4-2\.png\'\)\] {
-    background-image: url('/assets/images/home-section4-2.png');
+  .md\:bg-\[url\(\'\.\/assets\/images\/home-section4-2\.png\'\)\] {
+    background-image: url('./assets/images/home-section4-2.png');
   }
 
   .md\:py-20 {
@@ -1551,8 +1551,8 @@ select {
     border-right-width: 1px;
   }
 
-  .lg\:bg-\[url\(\'\/assets\/images\/home-header\.png\'\)\] {
-    background-image: url('/assets/images/home-header.png');
+  .lg\:bg-\[url\(\'\.\/assets\/images\/home-header\.png\'\)\] {
+    background-image: url('./assets/images/home-header.png');
   }
 
   .lg\:bg-\[url\(\'\/assets\/images\/product-header-1\.png\'\)\] {
