@@ -7,15 +7,3 @@
     font-family: 'Roboto', 'Noto Sans TC',system-ui, sans-serif;
   }
 }
-
-.logo{
-  background-image: url('../images/logo-white.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  width: 80px;
-  height: 72px;
-  text-indent: 101%;
-  overflow: hidden;
-  white-space: nowrap;
-}
