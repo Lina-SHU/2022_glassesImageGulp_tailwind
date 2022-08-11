@@ -6,4 +6,10 @@
   html{
     font-family: 'Roboto', 'Noto Sans TC',system-ui, sans-serif;
   }
+  a {
+    display: block;
+  }
+  label{
+    display: block;
+  }
 }

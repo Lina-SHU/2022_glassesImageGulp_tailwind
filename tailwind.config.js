@@ -28,6 +28,9 @@ module.exports = {
           'dark': '#650300',
           DEFAULT: '#AA0601',
           'light': '#FBF2F2'
+        },
+        'secondary': {
+          DEFAULT: '#555555'
         }
       },
       fontSize: {
